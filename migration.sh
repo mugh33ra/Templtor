@@ -3,6 +3,7 @@
 # =============================================
 # CONFIGURATION (Matching your exact paths)
 # =============================================
+cd "script/"
 SOURCE_DIR="./CVE-Templates"    # Your 10,883 custom CVEs
 TARGET_BASE_DIR="~/nuclei-templates/http/cves"        # Main Nuclei dir (3,186 existing)
 LOG_FILE="./migration_$(date +%Y%m%d_%H%M%S).log"

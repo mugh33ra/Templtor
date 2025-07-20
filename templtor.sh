@@ -65,8 +65,8 @@ main() {
     [[ ! -f "$file" ]] && echo -e "${RED}Error: File '$file' not found${NC}" && exit 1
 
     # Setup workspace
-    mkdir -p "script/templates" "script/CVE-Templates" || { echo -e "${RED}Failed to create directories${NC}"; exit 1; }
-    cp "$file" "script/" && cd "script/" || { echo -e "${RED}Failed to prepare workspace${NC}"; exit 1; }
+    mkdir -p "templatess/templates" "templatess/CVE-Templates" || { echo -e "${RED}Failed to create directories${NC}"; exit 1; }
+    cp "$file" "templatess/" && cd "templatess/" || { echo -e "${RED}Failed to prepare workspace${NC}"; exit 1; }
 
     # Process repositories
     while read -r link; do

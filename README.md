@@ -3,6 +3,11 @@
 
 A bash-based automation tool designed to **clone multiple GitHub repositories**, **extract Nuclei templates**, and **organize CVE-related templates** in a structured format. The script is ideal for researchers, red teamers, or security enthusiasts working with [Nuclei](https://github.com/projectdiscovery/nuclei) templates.
 
+<h1 align="center">
+  <img src="https://github.com/mugh33ra/Templtor/blob/main/img/img.jpg" width="700px" alt="screenshot">
+  <br>
+</h1>
+
 ---
 
 ## 🎯 Features

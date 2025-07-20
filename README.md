@@ -73,7 +73,13 @@ script/
 Total templates: 183
 CVE templates:  56
 ```
-
+## IMPORTANT NOTE:
+```
+if you want to copy all the cve templates to ~/nuclei-templates/http/cves just run the following it will do that. it will skip the existing templates and copy new CVE-Templates.
+```
+```bash
+bash migration.sh
+```
 ---
 
 ## 📌 Notes

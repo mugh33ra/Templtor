@@ -59,7 +59,7 @@ Then run:
 ## 📁 Output Structure
 
 ```
-script/
+templatess/
 ├── input_list.txt         # Your input file (copied here)
 ├── templates/             # All collected .yaml templates
 └── CVE-Templates/         # Filtered templates matching CVE*
